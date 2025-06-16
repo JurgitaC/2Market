@@ -1,4 +1,12 @@
-# 2Market
+# 2Market Project - part of LSE course
+
+**Tools used**: Excel, SQL, Tableau
+
+📂 [Technical Report](Cepure_Jurgita_.pdf)
+
+📂 [Presentation Slides]
+
+### Project Overview:
 A fictional global supermarket which sells products online and in-store needs help to understand their customer purchase behaviour.
 
 In particular, 2Market wants to understand:
