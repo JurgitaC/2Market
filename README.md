@@ -62,15 +62,16 @@ The primary data source - *Marketing_data* file, which provided the most detaile
 
 **Customer Dashboard**
 
+![Alt text](Customer.png)
 
 
 **Advertising Dashboard**
 
-
+![Alt text](Advertising.png)
 
 **Product Dashboard**
 
-
+![Alt text](Products.png)
 
 
 
