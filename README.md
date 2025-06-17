@@ -1,4 +1,4 @@
-# 🛒 2Market Project - part of LSE Data Analytics Career course
+# 🛒 2Market Project - part of LSE Data Analytics course
 
 **Tools used**: Excel, SQL, Tableau
 
