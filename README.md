@@ -1,4 +1,4 @@
-# 2Market Project - part of LSE course
+# 2Market Project - part of LSE Data Analytics course
 
 **Tools used**: Excel, SQL, Tableau
 
@@ -6,15 +6,20 @@
 
 📂 [Presentation Slides](2Market_Presentation.pdf)
 
+----------------------
 
-### Project Overview:
+### ❓ Business Questions: 
+
+
 A fictional global supermarket which sells products online and in-store needs help to understand their customer purchase behaviour:
 
 - The demographics of their customers 
 - Which advertising channels seem to be the most effective
 - Which products seem to sell the best and if that varies based on demographic
 
-### Key Focus Areas:
+----------------------
+
+### 🎯 Key Focus Areas:
 1. Customer demographic analysis:
 - What are the key demographic attributes (e.g., age, education, marital
 status, children, income, location) of the customer base?
@@ -45,40 +50,55 @@ store shoppers?
 - How does customer behaviour (average spend etc) differ across these
 two channels?
 
-### Data Source
+----------------------
+
+### 🫚 Data Source
 The primary data source - *Marketing_data* file, which provided the most detailed information, while the *Ad_data* file was left-joined into it using the primary key column, *id*.
 
-### Analytical Approach 
+----------------------
+
+### ⚙️ Analytical Approach 
 
 **Cleaned and pre-processed the data** by fixing inconsistencies, handling outliers, correcting data types, and improving database interactions to ensure completeness and reliability.
 
 **SQL Analysis** on spending by country, product popularity by demographics, and ad platform performance, uncovering key patterns to support better decisions.
 
-**Create Dashboards** focused on answering a specific aforementioned business question.
+**Created Dashboards** focused on answering a specific aforementioned business question.
 
-**Identify patterns and trends** followed by actionable **insights and recommendations**.
+**Identified patterns and trends** followed by actionable **insights and recommendations**.
 
-### Patterns, Trends, and Insights
+----------------------
+
+### 📊 Patterns, Trends, and Insights
+
+The dataset was heavily skewed towards Spain, which accounted for 49% of all customers, with South Africa and Canada contributing 15% and 12%, respectively. This could be due to factors such as data collection methods, business strategy, or market characteristics, and warrants further investigation.
 
 **Customer Dashboard**
 
 ![Alt text](Customer.png)
 
+Key **customer** patterns reveal that the majority are in the 44-58 age group, married or in a relationship, with children, and hold a degree or higher. Most prefer in-store shopping, earn approximately $50K annually, and spend on average under $300. The latter may derive from pattern where it was found that people with children tend to be more cautious with spending. These insights are consistent across countries.
 
 **Advertising Dashboard**
 
 ![Alt text](Advertising.png)
 
+Regarding **advertising effectiveness**, the data is insufficient to definitively measure the impact of specific marketing channels also duration of campaigns is unknown. That may have had an impact too. However, the analysis suggests that customers who were not targeted by ads tend to spend more on average, whether shopping online or in-store.
+
 **Product Dashboard**
 
 ![Alt text](Products.png)
 
+On the **product**, limiting factor was the absence of unit sales and pricing data. Nonetheless, alcoholic beverages emerged as the top-selling category based on total and average sales, followed by meat. Other product categories contributed significantly less. This trend held across most demographics and countries. Notably, dairy products were excluded from the dataset, which may have skewed product distribution analysis.
 
+----------------------
 
-The dataset was heavily skewed towards Spain, which accounted for 49% of all customers, with South Africa and Canada contributing 15% and 12%, respectively. This could be due to factors such as data collection methods, business strategy, or market characteristics, and warrants further investigation.
+### 💊 Conclusions and Next Steps
 
-Key **customer** patterns reveal that the majority are in the 44-58 age group, married or in a relationship, with children, and hold a degree or higher. Most prefer in-store shopping, earn approximately $50K annually, and spend on average under $300. The latter may derive from pattern where it was found that people with children tend to be more cautious with spending. These insights are consistent across countries.
+Due to current data gaps, it’s too early to draw firm conclusions. Further analysis is recommended after addressing the following:
 
-Regarding **advertising effectiveness**, the data is insufficient to definitively measure the impact of specific marketing channels also duration of campaigns is unknown. That may have had an impact too. However, the analysis suggests that customers who were not targeted by ads tend to spend more on average, whether shopping online or in-store.
-
-On the **product** front, limiting factor was the absence of unit sales and pricing data. Nonetheless, alcoholic beverages emerged as the top-selling category based on total and average sales, followed by meat. Other product categories contributed significantly less. This trend held across most demographics and countries. Notably, dairy products were excluded from the dataset, which may have skewed product distribution analysis.
+- Expand and balance customer samples across countries.
+- Collect data linking product prices to sales volumes.
+- Refine ad campaigns to better capture relevant data.
+- Include missing product categories (e.g., dairy) for a fuller view.
+----------------------
