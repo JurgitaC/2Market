@@ -8,9 +8,8 @@
 
 
 ### Project Overview:
-A fictional global supermarket which sells products online and in-store needs help to understand their customer purchase behaviour.
+A fictional global supermarket which sells products online and in-store needs help to understand their customer purchase behaviour:
 
-In particular, 2Market wants to understand:
 - The demographics of their customers 
 - Which advertising channels seem to be the most effective
 - Which products seem to sell the best and if that varies based on demographic
@@ -49,24 +48,31 @@ two channels?
 ### Data Source
 The primary data source - *Marketing_data* file, which provided the most detailed information, while the *Ad_data* file was left-joined into it using the primary key column, *id*.
 
-### Approach 
-To create dashboards focused on answering a specific business question:
+### Analytical Approach 
+
+**Cleaned and pre-processed the data** by fixing inconsistencies, handling outliers, correcting data types, and improving database interactions to ensure completeness and reliability.
+
+**SQL Analysis** on spending by country, product popularity by demographics, and ad platform performance, uncovering key patterns to support better decisions.
+
+**Create Dashboards** focused on answering a specific aforementioned business question.
+
+**Identify patterns and trends** followed by actionable **insights and recommendations**.
+
+### Patterns, Trends, and Insights
 
 **Customer Dashboard**
 
-A Packed Bubbles chart was chosen to visualize the distribution of customer demographics, as it effectively compares group sizes and highlights prominent categories. The Country filter was applied to all views, with a static colour range bar used to indicate the size of each group. Most views on the dashboard used the *Count of Id* measure combined with a demographic dimension (e.g., *Age_Group*, *Children*). Whereas *Income Spent Brackets* view gives joint group consisting of specific income group in relation to customers spending group.
+
 
 **Advertising Dashboard**
 
-Given that the data was not extensive enough to fully assess the effectiveness of advertising channels, I opted to compare the average *Total_Sales* of customers who encountered ads versus those who did not. Initial exploration was conducted in pgAdmin, then moved to Tableau, where two new columns—*Total_Sales_with_ad* and *Total_Sales_no_ad* —were created for further analysis. The table view clearly outlines low counts of successful ad conversions, suggesting that the data may not yet be sufficient for definitive conclusions.
 
-Different angle on advertising and possible customers’ lack of awareness of business’ channels as well as opportunity for advertising is reflected on double horizonal bars chart with measure of *Total_Sales* and average *Total_Sales* for number and percentage share of customers on labels.
 
 **Product Dashboard**
 
-The focus of this dashboard was on *Total_Sales*, percentage share of total sales for each product, and the average spend on each product. Simple cards were used to display key metrics for each product, while a horizontal bar chart showes the multichannel distribution of products and average customer spend. The dashboard includes more filters to allow users to explore product distribution across various dimensions, giving them the flexibility to explore the data.
 
-### Patterns, Trends, and Insights
+
+
 
 The dataset was heavily skewed towards Spain, which accounted for 49% of all customers, with South Africa and Canada contributing 15% and 12%, respectively. This could be due to factors such as data collection methods, business strategy, or market characteristics, and warrants further investigation.
 
