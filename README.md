@@ -1,14 +1,13 @@
-# 🛒 2Market Project - part of LSE Data Analytics course
+# 🛒 2Market Project - part of LSE Data Analytics Career course
 
 **Tools used**: Excel, SQL, Tableau
 
 📂 [Technical Report](Cepure_Jurgita_.pdf)
-
 📂 [Presentation Slides](2Market_Presentation.pdf)
 
 ----------------------
 
-### ❓ Business Questions: 
+## ❓ Business Questions: 
 
 
 A fictional global supermarket which sells products online and in-store needs help to understand their customer purchase behaviour:
@@ -19,7 +18,7 @@ A fictional global supermarket which sells products online and in-store needs he
 
 ----------------------
 
-### 🎯 Key Focus Areas:
+## 🎯 Key Focus Areas:
 1. Customer demographic analysis:
 - What are the key demographic attributes (e.g., age, education, marital
 status, children, income, location) of the customer base?
@@ -52,12 +51,12 @@ two channels?
 
 ----------------------
 
-### 🫚 Data Source
+## 🫚 Data Source
 The primary data source - *Marketing_data* file, which provided the most detailed information, while the *Ad_data* file was left-joined into it using the primary key column, *id*.
 
 ----------------------
 
-### ⚙️ Analytical Approach 
+## ⚙️ Analytical Approach 
 
 **Cleaned and pre-processed the data** by fixing inconsistencies, handling outliers, correcting data types, and improving database interactions to ensure completeness and reliability.
 
@@ -69,7 +68,7 @@ The primary data source - *Marketing_data* file, which provided the most detaile
 
 ----------------------
 
-### 📊 Patterns, Trends, and Insights
+## 📊 Patterns, Trends, and Insights
 
 The dataset was heavily skewed towards Spain, which accounted for 49% of all customers, with South Africa and Canada contributing 15% and 12%, respectively. This could be due to factors such as data collection methods, business strategy, or market characteristics, and warrants further investigation.
 
@@ -93,7 +92,7 @@ On the **product**, limiting factor was the absence of unit sales and pricing da
 
 ----------------------
 
-### 💊 Conclusions and Next Steps
+## 💊 Conclusions and Next Steps
 
 Due to current data gaps, it’s too early to draw firm conclusions. Further analysis is recommended after addressing the following:
 
