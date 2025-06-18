@@ -4,7 +4,7 @@
 
 📂 [Technical Report](Cepure_Jurgita_.pdf)
 📂 [Presentation Slides](2Market_Presentation.pdf)
-📂 [Feedback](Jurgita Cepure Course 1 FEEDBACK.pdf)
+📂 [Feedback](Jurgita_Cepure_FEEDBACK.pdf)
 
 ----------------------
 
